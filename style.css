@@ -2,56 +2,24 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  text-align: center;
   background: #f4f4f4;
 }
-
 header {
   background: #222;
-  color: white;
-  padding: 15px 0;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
 }
-
-header h1 {
-  margin: 0;
-}
-
 nav a {
-  color: white;
-  margin: 0 15px;
+  margin: 0 10px;
+  color: #fff;
   text-decoration: none;
 }
-
-nav a:hover {
-  text-decoration: underline;
-}
-
 main {
   padding: 20px;
+  text-align: center;
 }
-
-main img {
-  max-width: 80%;
-  height: auto;
-  margin: 10px 0;
+img {
+  margin: 10px;
   border-radius: 8px;
-}
-
-.gallery {
-  display: flex;
-  justify-content: center;
-  gap: 15px;
-  flex-wrap: wrap;
-}
-
-.gallery img {
-  width: 30%;
-  border: 2px solid #ccc;
-}
-
-footer {
-  background: #222;
-  color: white;
-  padding: 10px 0;
-  margin-top: 20px;
 }
