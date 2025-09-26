@@ -1,33 +1,74 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>联系我们 - 埃隆全球俱乐部</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Contact Us - Elon Global Club</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      background-color: #f9f9f9;
+    }
+    header {
+      background: #222;
+      color: white;
+      padding: 20px;
+    }
+    nav a {
+      margin: 0 15px;
+      color: #0073e6;
+      text-decoration: none;
+    }
+    .content {
+      padding: 30px;
+    }
+    img {
+      margin: 25px 0;
+      max-width: 85%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    }
+    .whatsapp-link {
+      display: inline-block;
+      padding: 12px 20px;
+      background: #25D366;
+      color: white;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .whatsapp-link:hover {
+      background: #1ebe5c;
+    }
+  </style>
 </head>
 <body>
   <header>
-    <h1>联系我们</h1>
-    <nav>
-      <a href="index.html">首页</a>
-      <a href="about.html">关于我们</a>
-      <a href="news.html">新闻</a>
-      <a href="gallery.html">图库</a>
-      <a href="contact.html">联系我们</a>
-    </nav>
+    <h1>Contact Us</h1>
   </header>
 
-  <main>
-    <h2>加入我们的社区</h2>
-    <p>点击这里加入 WhatsApp 群组：</p>
-    <a href="https://chat.whatsapp.com/GsAnWBkaqvPLZZgcd1IQ40" target="_blank">👉 点击加入</a>
+  <div class="content">
+    <p>If you’d like to connect with our community, join our official WhatsApp group:</p>
+    <p>
+      <a class="whatsapp-link" href="https://chat.whatsapp.com/GsAnWBkaqvPLZZgcd1IQ40" target="_blank">
+        👉 Join WhatsApp Group
+      </a>
+    </p>
 
-    <h2>SpaceX 火箭发射</h2>
-    <img src="images/contact.jpg" alt="Rocket Launch">
-  </main>
+    <p>You can also follow our updates and participate in global discussions about Elon Musk’s companies and future innovations.</p>
 
-  <footer>
-    <p>© 2025 埃隆全球俱乐部</p>
-  </footer>
+    <!-- 添加卫星发射高清图 -->
+    <img src="images/gallery_launch.jpg" alt="Satellite Launch">
+  </div>
+
+  <nav>
+    <a href="index.html">Home</a> |
+    <a href="about.html">About Us</a> |
+    <a href="news.html">News</a> |
+    <a href="gallery.html">Gallery</a>
+  </nav>
 </body>
 </html>
