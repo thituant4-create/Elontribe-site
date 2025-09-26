@@ -1,38 +1,83 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>新闻 - 埃隆全球俱乐部</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Latest News - Elon Global Club</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f7fa;
+      color: #333;
+      text-align: center;
+    }
+    header {
+      background: #222;
+      color: white;
+      padding: 20px;
+    }
+    nav a {
+      margin: 0 15px;
+      color: #0073e6;
+      text-decoration: none;
+    }
+    .section {
+      padding: 40px 20px;
+      border-bottom: 1px solid #ddd;
+    }
+    h2 {
+      color: #222;
+    }
+    img {
+      margin: 20px 0;
+      max-width: 80%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    }
+  </style>
 </head>
 <body>
   <header>
-    <h1>新闻</h1>
-    <nav>
-      <a href="index.html">首页</a>
-      <a href="about.html">关于我们</a>
-      <a href="news.html">新闻</a>
-      <a href="gallery.html">图库</a>
-      <a href="contact.html">联系我们</a>
-    </nav>
+    <h1>Latest News</h1>
   </header>
 
-  <main>
-    <h2>SpaceX</h2>
-    <img src="images/spacex.jpg" alt="SpaceX">
-    <p>SpaceX 专注于航天探索，目标是登陆火星并建立人类殖民地。</p>
+  <div class="section">
+    <h2>🚀 SpaceX</h2>
+    <img src="images/elon_home.jpg" alt="SpaceX Rocket">
+    <p>
+      SpaceX continues to make progress with its <b>Starship</b> program, aiming to enable human exploration 
+      of the Moon and Mars. The company is also expanding its <b>Starlink satellite network</b>, bringing 
+      high-speed internet access worldwide.
+    </p>
+  </div>
 
-    <h2>X.AI</h2>
-    <img src="images/xai.png" alt="XAI">
-    <p>X.AI 致力于打造未来的通用人工智能。</p>
+  <div class="section">
+    <h2>🤖 xAI</h2>
+    <img src="images/xai.png" alt="xAI Logo">
+    <p>
+      Musk’s AI company <b>xAI</b> is building advanced artificial intelligence models such as <b>Grok</b>. 
+      Recently, xAI partnered with U.S. government agencies to provide its AI tools, marking a significant 
+      step in global adoption.
+    </p>
+  </div>
 
-    <h2>Neuralink</h2>
+  <div class="section">
+    <h2>🧠 Neuralink</h2>
     <img src="images/neuralink.png" alt="Neuralink">
-    <p>Neuralink 专注于人脑与计算机的交互技术。</p>
-  </main>
+    <p>
+      Neuralink is developing <b>brain-machine interfaces</b> that could help patients with neurological 
+      conditions and unlock new possibilities for human-computer interaction. The project represents one 
+      of the most revolutionary medical technologies of the future.
+    </p>
+  </div>
 
-  <footer>
-    <p>© 2025 埃隆全球俱乐部</p>
-  </footer>
+  <nav>
+    <a href="index.html">Home</a> |
+    <a href="about.html">About Us</a> |
+    <a href="gallery.html">Gallery</a> |
+    <a href="contact.html">Contact Us</a>
+  </nav>
 </body>
 </html>
