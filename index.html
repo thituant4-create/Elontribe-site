@@ -1,30 +1,96 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>埃隆全球俱乐部</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Elon Global Club</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f7fa;
+      text-align: center;
+      color: #333;
+    }
+    header {
+      background: #222;
+      color: white;
+      padding: 20px;
+    }
+    nav a {
+      margin: 0 15px;
+      color: #0073e6;
+      text-decoration: none;
+    }
+    .hero {
+      padding: 30px;
+      background: #fff;
+    }
+    .hero img {
+      max-width: 80%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    }
+    .companies {
+      padding: 40px 20px;
+    }
+    .company {
+      margin: 25px 0;
+    }
+    h2 {
+      color: #222;
+    }
+  </style>
 </head>
 <body>
   <header>
-    <h1>埃隆全球俱乐部</h1>
-    <nav>
-      <a href="index.html">首页</a>
-      <a href="about.html">关于我们</a>
-      <a href="news.html">新闻</a>
-      <a href="gallery.html">图库</a>
-      <a href="contact.html">联系我们</a>
-    </nav>
+    <h1>埃隆全球俱乐部 Elon Global Club</h1>
   </header>
 
-  <main>
-    <h2>欢迎加入埃隆全球俱乐部</h2>
-    <img src="images/gallery1.jpg" alt="Elon Musk">
-    <p>马斯克名下公司：Tesla、SpaceX、Neuralink、X.AI 等，致力于改变世界和人类未来。</p>
-  </main>
+  <div class="hero">
+    <img src="images/elon_home.jpg" alt="Elon Musk">
+    <p>
+      Welcome to the Elon Global Club — a global community dedicated to Elon Musk’s vision 
+      and groundbreaking companies. Together, we follow the journey of innovation that 
+      shapes the future of humanity.
+    </p>
+  </div>
 
-  <footer>
-    <p>© 2025 埃隆全球俱乐部</p>
-  </footer>
+  <div class="companies">
+    <h2>Elon Musk’s Companies</h2>
+    
+    <div class="company">
+      <h3>🚗 Tesla</h3>
+      <p>Accelerating the world’s transition to sustainable energy through electric vehicles and renewable technology.</p>
+    </div>
+
+    <div class="company">
+      <h3>🚀 SpaceX</h3>
+      <p>Making life multi-planetary by developing reusable rockets and Starship missions to the Moon and Mars.</p>
+    </div>
+
+    <div class="company">
+      <h3>🧠 Neuralink</h3>
+      <p>Developing brain-machine interfaces to help patients and enhance human potential.</p>
+    </div>
+
+    <div class="company">
+      <h3>🛣️ The Boring Company</h3>
+      <p>Building underground transportation tunnels to solve urban traffic problems.</p>
+    </div>
+
+    <div class="company">
+      <h3>🤖 xAI</h3>
+      <p>Creating safe and advanced AI systems like Grok to push the boundaries of artificial intelligence.</p>
+    </div>
+  </div>
+
+  <nav>
+    <a href="about.html">About Us</a> |
+    <a href="news.html">News</a> |
+    <a href="gallery.html">Gallery</a> |
+    <a href="contact.html">Contact Us</a>
+  </nav>
 </body>
 </html>
